@@ -1,0 +1,1112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Eman Shahzadi!</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root {
+    --pink: #f8c8dc;
+    --deep-pink: #d94f85;
+    --gold: #d4a84f;
+    --cream: #fff9f5;
+    --dark: #503342;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--cream);
+    color: var(--dark);
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.script {
+    font-family: 'Great Vibes', cursive;
+}
+
+section {
+    padding: 90px 8%;
+    text-align: center;
+}
+
+.section-title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    color: var(--deep-pink);
+    margin-bottom: 15px;
+}
+
+.section-subtitle {
+    color: #967585;
+    margin-bottom: 45px;
+    font-size: 14px;
+}
+
+.gold-line {
+    width: 75px;
+    height: 3px;
+    background: var(--gold);
+    margin: 20px auto 35px;
+    border-radius: 5px;
+}
+
+/* HERO */
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at top left, #fff 0%, transparent 40%),
+        linear-gradient(135deg, #fbe0eb, #fff5e8, #f7d8e8);
+}
+
+.hero::before,
+.hero::after {
+    content: "✦";
+    position: absolute;
+    color: var(--gold);
+    font-size: 30px;
+    animation: sparkle 3s infinite;
+}
+
+.hero::before {
+    top: 20%;
+    left: 15%;
+}
+
+.hero::after {
+    bottom: 20%;
+    right: 15%;
+    animation-delay: 1s;
+}
+
+.hero-small {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #a77b83;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: clamp(3.8rem, 10vw, 7rem);
+    color: var(--deep-pink);
+    animation: fadeDown 1.5s ease;
+    padding: 0 10px;
+}
+
+.hero h2 {
+    color: #9b7549;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    margin: 12px 0;
+    font-weight: 400;
+}
+
+.age {
+    color: var(--deep-pink);
+    font-size: 20px;
+    margin: 12px;
+}
+
+.hero-text {
+    max-width: 550px;
+    padding: 10px 20px;
+    line-height: 1.9;
+    color: #846d78;
+}
+
+.main-btn {
+    border: none;
+    background: linear-gradient(120deg, #d94f85, #e8a45b);
+    color: white;
+    padding: 15px 32px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    box-shadow: 0 8px 25px #d94f8540;
+    transition: .3s;
+}
+
+.main-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px #d94f8560;
+}
+
+/* FLOATING BALLOONS */
+
+.balloon {
+    position: absolute;
+    bottom: -150px;
+    width: 45px;
+    height: 58px;
+    border-radius: 50%;
+    opacity: .65;
+    animation: floatUp linear infinite;
+}
+
+.balloon::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 65px;
+    background: #bd9a9c;
+    top: 55px;
+    left: 50%;
+}
+
+.balloon:nth-child(1) {
+    left: 8%;
+    background: #f28bb7;
+    animation-duration: 12s;
+}
+
+.balloon:nth-child(2) {
+    left: 25%;
+    background: #eac77c;
+    animation-duration: 16s;
+    animation-delay: 3s;
+}
+
+.balloon:nth-child(3) {
+    right: 15%;
+    background: #c7a4df;
+    animation-duration: 14s;
+    animation-delay: 2s;
+}
+
+.balloon:nth-child(4) {
+    right: 35%;
+    background: #f3a7b9;
+    animation-duration: 18s;
+    animation-delay: 5s;
+}
+
+@keyframes floatUp {
+    to { transform: translateY(-120vh) rotate(15deg); }
+}
+
+@keyframes sparkle {
+    50% { transform: scale(1.6) rotate(90deg); opacity: .3; }
+}
+
+@keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-35px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* BIRTHDAY WISHES */
+
+.wishes {
+    background: #fffafc;
+}
+
+.heart {
+    font-size: 35px;
+    color: var(--deep-pink);
+}
+
+.personal-message {
+    max-width: 800px;
+    margin: 0 auto 45px;
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+    line-height: 2;
+    color: #765365;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 22px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.wish-card {
+    background: white;
+    padding: 32px 20px;
+    border-radius: 18px;
+    border: 1px solid #f6dfeb;
+    box-shadow: 0 8px 25px #b86c8c10;
+    transition: .3s;
+}
+
+.wish-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px #b86c8c20;
+}
+
+.wish-card .emoji {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.wish-card h3 {
+    color: var(--deep-pink);
+    margin-bottom: 10px;
+}
+
+.wish-card p {
+    font-size: 13px;
+    line-height: 1.8;
+    color: #8d7580;
+}
+
+.personal-note {
+    max-width: 850px;
+    background: #fff0f5;
+    border-left: 4px solid var(--gold);
+    border-radius: 12px;
+    padding: 30px;
+    margin: 50px auto 0;
+    line-height: 2;
+    font-style: italic;
+}
+
+/* PARENTS TRIBUTE */
+
+.parents {
+    background: linear-gradient(135deg, #fff5ed, #fce9f2);
+}
+
+.parents-intro {
+    max-width: 780px;
+    margin: auto;
+    line-height: 2;
+    color: #846d78;
+}
+
+.parent-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+    max-width: 850px;
+    margin: 45px auto 0;
+}
+
+.parent-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px #b86c8c15;
+    padding-bottom: 25px;
+}
+
+.parent-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    background: #f4d9e5;
+}
+
+.photo-placeholder {
+    height: 260px;
+    background: linear-gradient(135deg, #f8dce8, #f8ebd8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+}
+
+.parent-card h3 {
+    margin: 22px 0 10px;
+    color: var(--deep-pink);
+}
+
+.parent-card p {
+    padding: 0 22px;
+    font-size: 13px;
+    line-height: 1.8;
+    color: #907a85;
+}
+
+/* PARENTS BLESSINGS */
+
+.blessings {
+    background: #fffafc;
+}
+
+.dua-box {
+    max-width: 850px;
+    margin: auto;
+    background: white;
+    border: 1px solid #f0dfc6;
+    border-radius: 20px;
+    padding: 45px 30px;
+    box-shadow: 0 10px 30px #b86c8c12;
+}
+
+.arabic {
+    font-size: 27px;
+    line-height: 2;
+    color: #b18b43;
+    margin-bottom: 20px;
+}
+
+.dua-box p {
+    line-height: 2;
+    color: #806a76;
+    margin-bottom: 18px;
+}
+
+/* GALLERY */
+
+.gallery {
+    background: linear-gradient(135deg, #fff2f6, #fff9ed);
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.gallery-item {
+    height: 250px;
+    overflow: hidden;
+    border-radius: 16px;
+    background: #f4d9e5;
+    position: relative;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.12);
+}
+
+.gallery-item span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    font-size: 13px;
+    background: linear-gradient(transparent, #0008);
+}
+
+/* INTERACTIVE SURPRISE */
+
+.surprise {
+    background: linear-gradient(135deg, #fce5ee, #fff1d9);
+}
+
+.cake {
+    font-size: 110px;
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.cake:hover {
+    transform: scale(1.08);
+}
+
+.cake-note {
+    color: #987c88;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.cake-message {
+    margin-top: 20px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+    color: var(--deep-pink);
+    min-height: 50px;
+}
+
+.final-message {
+    display: none;
+    max-width: 650px;
+    margin: 35px auto 0;
+    padding: 30px;
+    background: white;
+    border-radius: 18px;
+    line-height: 2;
+    box-shadow: 0 10px 30px #b86c8c20;
+}
+
+footer {
+    padding: 45px 15px;
+    text-align: center;
+    background: #573b4c;
+    color: white;
+}
+
+footer .script {
+    font-size: 36px;
+    color: #f2c67e;
+}
+
+footer p {
+    font-size: 12px;
+    margin-top: 12px;
+    color: #e9d5df;
+}
+
+/* ANIMATIONS ON SCROLL */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(35px);
+    transition: opacity .9s ease, transform .9s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* CONFETTI */
+
+#confettiCanvas {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 999;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 700px) {
+    section { padding: 70px 6%; }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .gallery-item { height: 190px; }
+
+    .parent-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .parent-card img,
+    .photo-placeholder { height: 230px; }
+
+    .personal-message { font-size: 16px; }
+}
+
+@media(max-width: 380px) {
+    .gallery-grid { grid-template-columns: 1fr; }
+}
+
+/* TWO-PAGE EXPERIENCE */
+
+.welcome-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 30px 15px;
+
+    background:
+        radial-gradient(circle at top left, #fff 0%, transparent 40%),
+        linear-gradient(135deg, #fbe0eb, #fff5e8, #f7d8e8);
+}
+
+.birthday-page {
+    display: none;
+    opacity: 0;
+}
+
+.birthday-page.show {
+    display: block;
+    animation: pageReveal 1.5s ease forwards;
+}
+
+.welcome-page.hide {
+    animation: welcomeExit 0.8s ease forwards;
+}
+
+@keyframes welcomeExit {
+    to {
+        opacity: 0;
+        transform: scale(1.08);
+        visibility: hidden;
+    }
+}
+
+@keyframes pageReveal {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>
+</head>
+
+<body>
+
+<canvas id="confettiCanvas"></canvas>
+
+<!-- 1. HERO SECTION -->
+
+<!-- PAGE 1: WELCOME SCREEN -->
+
+<div class="welcome-page" id="welcomePage">
+
+    <div class="balloon"></div>
+    <div class="balloon"></div>
+    <div class="balloon"></div>
+    <div class="balloon"></div>
+
+    <p class="hero-small">A beautiful day for a beautiful soul</p>
+
+    <h1>Happy Birthday!</h1>
+
+    <h2>M416</h2>
+
+    <div class="age">✨ Chapter 22 Begins ✨</div>
+
+    <p class="hero-text">
+        Today is all about celebrating you, your beautiful soul,
+        your dreams, and the wonderful person you are.
+        May your new chapter be filled with countless blessings.
+    </p>
+
+    <button class="main-btn" onclick="openSurprise()">
+        🎁 Open Your Surprise
+    </button>
+
+</div>
+
+<!-- PAGE 2: COMPLETE BIRTHDAY WEBSITE -->
+
+<div id="birthdayPage" class="birthday-page">
+<!-- 2. BIRTHDAY WISHES -->
+
+<section class="wishes" id="wishes">
+
+    <div class="reveal">
+
+        <div class="heart">♡</div>
+
+        <h2 class="section-title">A Few Words From My Heart</h2>
+
+        <div class="gold-line"></div>
+
+        <p class="personal-message">
+            Dear M416,<br><br>
+
+            On your special day, I wish you a life filled with
+            beautiful moments, peaceful days, and endless reasons
+            to smile. May you always find strength in difficult
+            times and happiness in the smallest things.
+            Never stop believing in yourself and chasing your dreams.
+
+            May Allah make every coming year more beautiful
+            than the last one. Ameen.
+        </p>
+
+    </div>
+
+    <div class="cards reveal">
+
+        <div class="wish-card">
+            <div class="emoji">🌷</div>
+            <h3>Good Health</h3>
+            <p>May Allah bless you with good health, strength,
+            peace, and a long, beautiful life.</p>
+        </div>
+
+        <div class="wish-card">
+            <div class="emoji">🦋</div>
+            <h3>Happiness</h3>
+            <p>May your heart always find reasons to smile
+            and your life be filled with happiness.</p>
+        </div>
+
+        <div class="wish-card">
+            <div class="emoji">🌟</div>
+            <h3>Success</h3>
+            <p>May every effort bring results and every
+            dream lead you towards success.</p>
+        </div>
+
+        <div class="wish-card">
+            <div class="emoji">💗</div>
+            <h3>Love & Peace</h3>
+            <p>May you always be surrounded by sincere people,
+            kindness, respect, and peace.</p>
+        </div>
+
+    </div>
+
+    <div class="personal-note reveal">
+        "This gesture isn't for any personal benefit, nor because
+        of any feeling I hold. I did it simply because you deserve it.
+        Keep striving with the same dedication, and may Allah bless
+        you with success in every step of your life. Ameen."
+
+        <br><br>
+        <strong>— Ahtisham Ali</strong>
+    </div>
+
+</section>
+
+
+<!-- 3. HER PARENTS - A TRIBUTE -->
+
+<section class="parents" id="parents">
+
+    <div class="reveal">
+
+        <h2 class="section-title">The People Behind Your Smile</h2>
+
+        <div class="gold-line"></div>
+
+        <p class="parents-intro">
+            Behind every beautiful soul, there are people whose
+            love, sacrifices, prayers, and guidance help shape
+            that person. Your parents are among the greatest
+            blessings in your life.
+
+            Their countless efforts, unconditional love,
+            and beautiful values have helped you become
+            the person you are today.
+
+            Their prayers are treasures that words can never
+            fully describe.
+        </p>
+
+    </div>
+
+    <div class="parent-grid reveal">
+
+        <!-- Replace the father placeholder with his photo -->
+        <div class="parent-card">
+
+            <!-- To add a father photo, replace the div below with:
+            <img src="father.jpg" alt="Eman's Father">
+            -->
+
+            <div class="photo-placeholder"><img src="father img.avif" alt=""></div>
+
+            <h3>Your Beloved Father</h3>
+
+            <!-- Replace Your Father with his real name -->
+            <p><strong>Your Right side of Heart</strong></p>
+
+            <p>
+                A father's efforts often speak louder than words.
+                His hard work, protection, guidance, and silent
+                sacrifices become the foundation of his children's
+                dreams and future.
+            </p>
+
+        </div>
+
+        <div class="parent-card">
+
+            <!-- Optional: Add mother's photo here -->
+            <div class="photo-placeholder"><img src="mother img.jpg" alt=""></div>
+
+            <h3>Your Beloved Mother</h3>
+
+            <!-- Replace Your Mother with her real name -->
+            <p><strong>Your left side of Heart</strong></p>
+
+            <p>
+                A mother's love is one of life's greatest blessings.
+                Her prayers, care, patience, and kindness create
+                a warmth that stays with her children forever.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- 4. BLESSINGS FOR PARENTS -->
+
+<section class="blessings" id="blessings">
+
+    <div class="reveal">
+
+        <h2 class="section-title">Blessings for Her Beloved Parents</h2>
+
+        <div class="gold-line"></div>
+
+    </div>
+
+    <div class="dua-box reveal">
+
+        <div class="arabic" dir="rtl">
+            رَّبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا
+        </div>
+
+        <p>
+            "My Lord, have mercy upon them as they brought me up
+            when I was small."
+        </p>
+
+        <p>
+            May Allah bless Eman's beloved parents with good health,
+            a long life filled with blessings, peace of heart,
+            and endless happiness.
+        </p>
+
+        <p>
+            May their home always remain filled with love,
+            understanding, prosperity, and the beautiful light
+            of faith.
+        </p>
+
+        <p>
+            May Allah reward them for every sacrifice,
+            every sleepless night, every prayer, and every effort
+            they have made for their daughter.
+        </p>
+
+        <p>
+            May they live long enough to witness Eman's greatest
+            achievements, celebrate her successes, and feel proud
+            of the wonderful person they have raised.
+        </p>
+
+        <p>
+            Thank you for raising such a wonderful daughter.
+            May Allah grant you the best in this world
+            and the Hereafter.
+        </p>
+
+        <h3 class="script" style="font-size:38px;color:#d94f85;">
+            Ameen Ya Rabbal Alameen 🤲
+        </h3>
+
+    </div>
+
+</section>
+
+
+
+<!-- 6. INTERACTIVE SURPRISE -->
+
+<section class="surprise" id="surprise">
+
+    <div class="reveal">
+
+        <h2 class="section-title">One Last Little Surprise</h2>
+
+        <div class="gold-line"></div>
+
+        <p class="section-subtitle">
+            Make a wish, close your eyes, and let the magic begin!
+        </p>
+
+        <div class="cake" id="cake" onclick="blowCandles()">
+            🎂
+        </div>
+
+        <p class="cake-note">
+            Click the cake to blow out your candles! 🕯️
+        </p>
+
+        <div class="cake-message" id="cakeMessage"></div>
+
+        <button class="main-btn" onclick="makeWish()">
+            ✨ Make a Wish ✨
+        </button>
+
+        <div class="final-message" id="finalMessage">
+
+            <h2 style="color:#d94f85;margin-bottom:15px;">
+                Happy 22nd Birthday, M416! 💗
+            </h2>
+
+            <p>
+                May Allah write beautiful stories in every chapter
+                of your life. May your dreams become reality,
+                your efforts bring success, and your heart
+                always remain peaceful.
+
+                Remember, you deserve all the happiness
+                that life has to offer.
+
+                Keep smiling, keep growing, and keep shining!
+
+                <br><br>
+                <strong>Stay blessed, always. Ameen! 🤲</strong>
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- 7. FOOTER -->
+
+<footer>
+
+    <div class="script">With love, Ahtisham Ali</div>
+
+    <p>
+        Made with sincere wishes and respect for Eman Shahzadi.
+    </p>
+
+    <p>
+        © 30 November | A Beautiful Chapter 22
+    </p>
+
+</footer>
+
+</div>
+<script>
+
+// ----------------------------------
+// 1. SCROLL REVEAL ANIMATION
+// ----------------------------------
+
+const observer = new IntersectionObserver((entries) => {
+
+    entries.forEach(entry => {
+
+        if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+        }
+
+    });
+
+}, { threshold: 0.12 });
+
+document.querySelectorAll('.reveal').forEach(element => {
+    observer.observe(element);
+});
+
+
+// ----------------------------------
+// 2. BLOW OUT THE CANDLES
+// ----------------------------------
+
+let candlesBlown = false;
+
+function blowCandles() {
+
+    const cakeMessage = document.getElementById('cakeMessage');
+
+    if (!candlesBlown) {
+
+        document.getElementById('cake').innerHTML = '🎂';
+
+        cakeMessage.innerHTML =
+            '✨ Wishes have been sent to the universe! ✨';
+
+        candlesBlown = true;
+
+        launchConfetti();
+
+    } else {
+
+        cakeMessage.innerHTML =
+            'Your wishes are already on their way! 💗';
+
+    }
+
+}
+
+
+// ----------------------------------
+// 3. MAKE A WISH BUTTON
+// ----------------------------------
+
+function makeWish() {
+
+    document.getElementById('finalMessage').style.display = 'block';
+
+    document.getElementById('finalMessage').scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+    });
+
+    launchConfetti();
+
+}
+
+
+// ----------------------------------
+// 4. CONFETTI ANIMATION
+// ----------------------------------
+
+const canvas = document.getElementById('confettiCanvas');
+const ctx = canvas.getContext('2d');
+
+let confetti = [];
+let animationRunning = false;
+
+function resizeCanvas() {
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+}
+
+resizeCanvas();
+
+window.addEventListener('resize', resizeCanvas);
+
+function launchConfetti() {
+
+    const colors = [
+        '#f28bb7',
+        '#eac77c',
+        '#d4a84f',
+        '#c7a4df',
+        '#ffffff',
+        '#e76f9b'
+    ];
+
+    for (let i = 0; i < 150; i++) {
+
+        confetti.push({
+
+            x: Math.random() * canvas.width,
+            y: -Math.random() * canvas.height,
+
+            size: Math.random() * 8 + 3,
+
+            speed: Math.random() * 4 + 2,
+
+            angle: Math.random() * 6,
+
+            color: colors[Math.floor(Math.random() * colors.length)],
+
+            rotation: Math.random() * 360
+
+        });
+
+    }
+
+    if (!animationRunning) {
+        animationRunning = true;
+        animateConfetti();
+    }
+
+}
+
+function animateConfetti() {
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    confetti.forEach((piece) => {
+
+        piece.y += piece.speed;
+        piece.x += Math.sin(piece.angle) * 2;
+        piece.rotation += 4;
+
+        ctx.save();
+
+        ctx.translate(piece.x, piece.y);
+        ctx.rotate(piece.rotation * Math.PI / 180);
+
+        ctx.fillStyle = piece.color;
+
+        ctx.fillRect(
+            -piece.size / 2,
+            -piece.size / 2,
+            piece.size,
+            piece.size
+        );
+
+        ctx.restore();
+
+    });
+
+    confetti = confetti.filter(piece => piece.y < canvas.height + 20);
+
+    if (confetti.length > 0) {
+
+        requestAnimationFrame(animateConfetti);
+
+    } else {
+
+        animationRunning = false;
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    }
+
+}
+// OPEN THE BIRTHDAY SURPRISE
+
+function openSurprise() {
+
+    const welcome = document.getElementById('welcomePage');
+    const birthday = document.getElementById('birthdayPage');
+
+    welcome.classList.add('hide');
+
+    setTimeout(() => {
+
+        welcome.style.display = 'none';
+
+        birthday.classList.add('show');
+
+        window.scrollTo({
+            top: 0,
+            behavior: 'instant'
+        });
+
+        launchConfetti();
+
+    }, 800);
+
+}
+
+</script>
+
+</body>
+</html>
